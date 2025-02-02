@@ -44,3 +44,11 @@ copy the https link or setup ssh
 
 git remote - as shown on steps
 git push -u origin main // u is upstream, main is the branch
+
+to check how many versions/tags of this software are there 
+git tag
+
+there are 2 types of tagging -Annotated tagging - Lightweight Tagging
+for annotated - git tag -a v1.0 -m "first msg" here -a is for annotated
+
+to see info of tag - git tag v1.0 
