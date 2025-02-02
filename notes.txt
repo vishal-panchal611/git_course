@@ -52,3 +52,5 @@ there are 2 types of tagging -Annotated tagging - Lightweight Tagging
 for annotated - git tag -a v1.0 -m "first msg" here -a is for annotated
 
 to see info of tag - git tag v1.0 
+this tag will not be visible on github directly
+we need to push tag - git push origin v1.0
