@@ -30,3 +30,6 @@ if we want to skip staging we can add -a to commit
 eg. git commit -a -m "<messager her>"
 
 git diff - finding differences in what we have worked and what is already there in commits
+
+if we add the file to staging area and then do git diff, it will not show anything
+git diff --staged - to see diff in staging area
