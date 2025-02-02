@@ -1,0 +1,13 @@
+to create local repo , use git init
+by default when we create fole it will be a part of working directory,
+we need to let git know that this is a part of git and it goes to staging area
+
+git status - shows file on branch or untracked files
+
+to delete .git, use rm .git or go to folder and delete .git folder
+
+to set bracnh to main instead of master , 
+use git init -b main (here -b stands for branch)
+
+if we want to add a file to staging area, we need to
+use git add <filename>
