@@ -38,3 +38,9 @@ modified
 to add all files to staging area, we use git add .
 
 to delete file from git staging area, we use git rm --cached <filename>
+
+then create repo from github website
+copy the https link or setup ssh
+
+git remote - as shown on steps
+git push -u origin main // u is upstream, main is the branch
