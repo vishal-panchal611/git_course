@@ -28,3 +28,5 @@ git log will show the author and date of commits
 
 if we want to skip staging we can add -a to commit
 eg. git commit -a -m "<messager her>"
+
+git diff - finding differences in what we have worked and what is already there in commits
