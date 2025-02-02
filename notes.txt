@@ -23,3 +23,8 @@ e.g [main (root-commit) 5936ab3] My first commit.
 
 after editing a file in local, if we do git status it will show changes not staged for commit
 becase we have not added files for staging yet, we need to go git add, then git commit
+
+git log will show the author and date of commits
+
+if we want to skip staging we can add -a to commit
+eg. git commit -a -m "<messager her>"
