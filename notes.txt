@@ -36,3 +36,5 @@ git diff --staged - to see diff in staging area
 modified
 
 to add all files to staging area, we use git add .
+
+to delete file from git staging area, we use git rm --cached <filename>
