@@ -11,3 +11,15 @@ use git init -b main (here -b stands for branch)
 
 if we want to add a file to staging area, we need to
 use git add <filename>
+
+to see all the commits on the branch, we need to use git log
+
+We need to commit, we need to use git commit -m "<add msg here>
+once this is done, the file will be tracked by git for changes
+
+git creates checksum for every commit, it is created using 40 characters
+out of it we only focus on 1st 7 characters
+e.g [main (root-commit) 5936ab3] My first commit.
+
+after editing a file in local, if we do git status it will show changes not staged for commit
+becase we have not added files for staging yet, we need to go git add, then git commit
