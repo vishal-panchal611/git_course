@@ -56,6 +56,15 @@ this tag will not be visible on github directly
 we need to push tag - git push origin v1.0
 
 to create branches we can use git checkout or git switch
-eg git cheout -b feature1 - this creates branch names feature1
+eg git checkout -b <branchname> - this creates branch names feature1
+eg git switch -c <branchname>
 
-to see number of branches , git brach and the one with green and star will be the one active
+to see number of branches , git branch and the one with green and star will be the one active
+git branch -all - this shows all local and remote branches
+
+to switch branches, git switch <branch name>
+the code commited on one brnach will not be visible on other branch
+
+to delete branch - git branch -d <branchname>
+
+to push branch to github
