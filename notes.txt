@@ -79,3 +79,6 @@ git push origin main to push to github
 adding git rebase here
 here 
 git rebase <branch name>
+
+merge conflict can occure when merging files, it will show error when git merge <branch> is done,
+we need to solve that conflict and then git add . , git commit -m "msg", git merge <branch>
