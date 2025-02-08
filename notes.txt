@@ -89,3 +89,13 @@ git pull origin main
 to time travel, we need to get git log and get all commits 
 then git checkout <commit id >
 
+
+
+stash is used when we want to save out code without committing it and use later on
+we need to do git stash
+we get a id when we do git stash
+so to get back that saved content we need to do 
+git stash list
+git stash apply
+
+
