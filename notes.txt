@@ -85,3 +85,6 @@ we need to solve that conflict and then git add . , git commit -m "msg", git mer
 
 when we want to pull changes from remote repo to local repo we need to use pull
 git pull origin main
+
+to time travel, we need to get git log and get all commits 
+then git checkout <commit id >
