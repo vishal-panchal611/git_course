@@ -72,6 +72,7 @@ to push branch to github - git push origin <branchname>
 Merging two branches
 to use merge we have to be in main branch
 
+<<<<<<< HEAD
 
 stash is used when we want to save out code without committing it and use later on
 we need to do git stash
@@ -79,3 +80,23 @@ we get a id when we do git stash
 so to get back that saved content we need to do 
 git stash list
 git stash apply
+=======
+we need to do git pull to always keep latest code on our machien before Merging
+
+git push origin main to push to github
+
+adding git rebase here
+here 
+git rebase <branch name>
+
+merge conflict can occure when merging files, it will show error when git merge <branch> is done,
+we need to solve that conflict and then git add . , git commit -m "msg", git merge <branch>
+
+when we want to pull changes from remote repo to local repo we need to use pull
+git pull origin main
+
+to time travel, we need to get git log and get all commits 
+then git checkout <commit id >
+
+
+
