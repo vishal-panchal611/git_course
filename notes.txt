@@ -98,6 +98,6 @@ so to get back that saved content we need to do
 git stash list
 git stash apply
 
-
+we can do fork to create a repo in our git and push code to that repo and not the original repo
 
 
