@@ -88,3 +88,5 @@ git pull origin main
 
 to time travel, we need to get git log and get all commits 
 then git checkout <commit id >
+
+

@@ -1,8 +1,12 @@
 add and remove users
 change the roles
 
+<<<<<<< HEAD
 
 
 
 adding from github site again
 
+=======
+adding from github site 
+>>>>>>> lite-version
